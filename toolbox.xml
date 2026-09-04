@@ -1,0 +1,15 @@
+<category name="Wildlife Monitor" colour="#4f7d55">
+    <label text="Raspberry Pi Wildlife Monitor"></label>
+
+    <block type="wildlife_imports"></block>
+    <block type="pir_setup"></block>
+    <block type="dht22_setup"></block>
+
+    <label text="Actions"></label>
+
+    <block type="pir_wait_for_motion"></block>
+    <block type="dht22_read_safe"></block>
+    <block type="photo_filename_timestamp"></block>
+    <block type="camera_take_photo"></block>
+    <block type="pir_wait_for_no_motion"></block>
+</category>
