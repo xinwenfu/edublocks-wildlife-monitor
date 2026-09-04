@@ -1,9 +1,4 @@
 {
   "mode": "python",
-  "code": [],
-  "name": "Wildlife Monitor",
-  "description": "Raspberry Pi wildlife monitoring blocks for PIR motion, DHT22 temperature and humidity, and camera.",
-  "author": "Xinwen Fu",
-  "version": "1.0.0",
-  "icon": "icon.png"
+  "code": []
 }
