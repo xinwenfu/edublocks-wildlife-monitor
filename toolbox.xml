@@ -1,15 +1,20 @@
 <category name="Wildlife Monitor" colour="#4f7d55">
-    <label text="Raspberry Pi Wildlife Monitor"></label>
-
-    <block type="wildlife_imports"></block>
-    <block type="pir_setup"></block>
-    <block type="dht22_setup"></block>
-
-    <label text="Actions"></label>
-
-    <block type="pir_wait_for_motion"></block>
-    <block type="dht22_read_safe"></block>
-    <block type="photo_filename_timestamp"></block>
-    <block type="camera_take_photo"></block>
-    <block type="pir_wait_for_no_motion"></block>
+  <label text="Imports"></label>
+  <block type="import_time"></block>
+  <block type="import_subprocess"></block>
+  <block type="import_datetime"></block>
+  <block type="import_motion_sensor"></block>
+  <block type="import_board"></block>
+  <block type="import_adafruit_dht"></block>
+  <label text="Motion Sensor"></label>
+  <block type="pir_setup"></block>
+  <block type="pir_wait_for_motion"></block>
+  <block type="pir_wait_for_no_motion"></block>
+  <label text="Temperature and Humidity"></label>
+  <block type="dht22_setup"></block>
+  <block type="dht22_read_safe"></block>
+  <label text="Camera"></label>
+  <block type="camera_take_photo"></block>
+  <label text="USB Microphone"></label>
+  <block type="microphone_record"></block>
 </category>
