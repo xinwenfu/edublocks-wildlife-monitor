@@ -75,7 +75,7 @@ Blockly.Python["microphone_record"] = function(block) {
     return `# Get the current date and time and turn it into a timestamp
 audio_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 # Use the timestamp to create a unique audio filename
-audio_filename = "pi/audio_" + audio_timestamp + ".wav"
+audio_filename = "audio_" + audio_timestamp + ".wav"
 # Run the Linux audio recording command
 subprocess.run([
     "arecord",
